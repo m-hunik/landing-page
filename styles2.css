@@ -41,6 +41,7 @@ body {
 .logo {
     /* border: 1px solid; */
     font-size: 24px;
+    font-weight: 600;
 }
 
 .menu {
@@ -88,15 +89,18 @@ body {
 
 .sec-one-text {
     /* border: 1px solid; */
+    padding-bottom: 10px;
 }
 
 .sec-one-button {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     background-color: #3882F6;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #fff;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .sec-one-image {
@@ -237,17 +241,60 @@ body {
     font-size: 24px;
 }
 
+.sec-four-container {
+    display: flex;
+    /* border: 1px solid; */
+    border-color: green;
+    width: 100%;
+    color: #1F2937;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
 .section-four {
     /* border: 1px solid; */
     display: flex;
-    flex: 1;
     width: 1000px;
-    /* height: 500px; */
+    padding: 50px 0px;
+    justify-content:space-around;
+    border-radius: 8px;
+    background-color: #3882F6;
+    align-items: center;
+
+}
+
+.call-to-action {
+    /* border: 1px solid; */
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.text {
+    /* border: 1px solid; */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sec-four-button {
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    border: 2px solid;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .footer {
     /* border: 1px solid; */
     display: flex;
-    width: 1000px;
+    width: 100%;
     height: 50px;
+    padding: 30px;
+    justify-content: center;
+    color:#F9FAF8;
+    background-color: #1F2937;
 }
