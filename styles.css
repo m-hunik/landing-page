@@ -52,6 +52,8 @@ body {
 
 .links {
     /* border: 1px solid; */
+    text-decoration: none;
+    color:#F9FAF8;
 }
 
 .sec-one-content {
@@ -101,6 +103,7 @@ body {
     color: #fff;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .sec-one-image {
@@ -286,6 +289,7 @@ body {
     color: #fff;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .footer {
