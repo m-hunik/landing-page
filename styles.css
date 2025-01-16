@@ -2,37 +2,36 @@ body {
     margin: 0;
     padding: 0;
     box-sizing:content-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto";
 }
 
 .allcontainer {
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     flex-direction: column;
     height: 100vh;
     align-items: center;
 }
 
-.test {
+.sec-one-container {
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-color: green;
     width: 100%;
     justify-content: center;
-    /* background-color: #1F2937;
-    color: #F9FAF8; */
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .section-one {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 1000px;
     display: flex;
     flex-direction: column;
-
 }
 
 .sec-one-header {
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -40,41 +39,44 @@ body {
 }
 
 .logo {
-    border: 1px solid;
+    /* border: 1px solid; */
     font-size: 24px;
+    font-weight: 600;
 }
 
 .menu {
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     gap: 20px;
 }
 
 .links {
-    border: 1px solid;
+    /* border: 1px solid; */
+    text-decoration: none;
+    color:#F9FAF8;
 }
 
 .sec-one-content {
-    border: 1px solid;
+    /* border: 1px solid; */
     border-color: red;
     display: flex; 
     align-items: center;
     flex: 1;
-    padding: 5px;
-    padding-bottom: 100px;
+    /* padding: 5px; */
+    min-height: 350px;
 
 }
 
 .grid {
-    border: 1px solid;
+    /* border: 1px solid; */
     border-color: green;
     display: flex;
     flex: 1;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .sec-one-description {
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -84,24 +86,28 @@ body {
 .sec-one-title {
     font-size: 48px;
     font-weight: 900;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .sec-one-text {
-    border: 1px solid;
+    /* border: 1px solid; */
+    padding-bottom: 10px;
 }
 
 .sec-one-button {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     background-color: #3882F6;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .sec-one-image {
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     flex: 1;
     background: #656b75;
@@ -110,36 +116,189 @@ body {
 }
 
 .placeholder-text {
-    border: 1px solid;
+    /* border: 1px solid; */
+}
+
+.sec-two-container {
+    display: flex;
+    /* border: 1px solid; */
+    border-color: green;
+    width: 100%;
+    justify-content: center;
+    padding: 35px 0px;
+    /* background-color: #1F2937;
+    color: #F9FAF8; */
 }
 
 .section-two {
-    border: 1px solid;
+    /* border: 1px solid; */
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-two-header {
+    /* border: 1px solid; */
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 35px;
+    color: #1F2937;
+}
+
+.sec-two-content {
+    /* border: 1px solid; */
+    /* height: 300px; */
+    width: 700px;
     display: flex;
     flex: 1;
-    width: 1000px;
-    /* height: 500px; */
+    justify-content: space-between;
+    /* padding: 5px; */
+}
+
+.grid-one {
+    /* border: 1px solid; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid-two {
+    /* border: 1px solid; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid-three {
+    /* border: 1px solid; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid-four {
+    /* border: 1px solid; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.square {
+    width: 125px;
+    height: 125px;
+    background: #fff;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.square-description {
+    width: 125px;
+    padding: 0px;
+    /* border: 1px solid; */
+}
+
+.sec-three-container {
+    display: flex;
+    /* border: 1px solid; */
+    border-color: green;
+    width: 100%;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    justify-content: center;
+    padding: 75px 0px;
 }
 
 .section-three {
-    border: 1px solid;
+    flex-direction: column;
+    /* border: 1px solid; */
     display: flex;
-    flex: 1;
-    width: 1000px;
-    /* height: 500px; */
+    gap: 5px;
+}
+
+.quote {
+    /* border: 1px solid; */
+    text-align: start;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    inline-size: 750px;
+    overflow-wrap: break-word;
+}
+
+.quotes-author {
+    /* border: 1px solid; */
+    text-align: end;
+    font-size: 24px;
+}
+
+.sec-four-container {
+    display: flex;
+    /* border: 1px solid; */
+    border-color: green;
+    width: 100%;
+    color: #1F2937;
+    justify-content: center;
+    padding: 100px 0px;
 }
 
 .section-four {
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
-    flex: 1;
     width: 1000px;
-    /* height: 500px; */
+    padding: 50px 0px;
+    justify-content:space-around;
+    border-radius: 8px;
+    background-color: #3882F6;
+    align-items: center;
+
+}
+
+.call-to-action {
+    /* border: 1px solid; */
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.text {
+    /* border: 1px solid; */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sec-four-button {
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    border: 2px solid;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .footer {
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
-    width: 1000px;
+    width: 100%;
     height: 50px;
+    padding: 30px;
+    justify-content: center;
+    color:#F9FAF8;
+    background-color: #1F2937;
 }
